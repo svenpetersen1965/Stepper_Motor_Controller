@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="state_diagram.svg"
+   inkscape:export-filename="X:\Projekte\_Eigene\Arduino Projects\Stepper Controller\Rev. 0\pictures\state_diagram.png"
+   inkscape:export-xdpi="299"
+   inkscape:export-ydpi="299">
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible;"
+       id="marker1438"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1436" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker1286"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1284" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker1256"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1254" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker1198"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1196" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path927" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1286-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1284-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1438-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1436-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1438-5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1436-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1438-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1436-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1438-5-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1436-2-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1438-5-3-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1436-2-5-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1438-2-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1436-3-3" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.6717017"
+     inkscape:cx="307.83466"
+     inkscape:cy="429.05027"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g842-8"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="2560"
+     inkscape:window-height="1411"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       position="98.128548,207.41814"
+       orientation="1,0"
+       id="guide914" />
+    <sodipodi:guide
+       position="88.636761,144.12397"
+       orientation="0,-1"
+       id="guide1240" />
+    <sodipodi:guide
+       position="75.206947,164.60444"
+       orientation="1,0"
+       id="guide1242" />
+    <sodipodi:guide
+       position="94.456347,244.3999"
+       orientation="0,-1"
+       id="guide1244" />
+    <sodipodi:guide
+       position="88.077184,135.3946"
+       orientation="0,-1"
+       id="guide1246" />
+    <sodipodi:guide
+       position="84.383985,253.01737"
+       orientation="0,-1"
+       id="guide1248" />
+    <sodipodi:guide
+       position="86.286542,181.83936"
+       orientation="1,0"
+       id="guide1250" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g842-8"
+       transform="translate(-1.2310703,36.596239)">
+      <circle
+         style="opacity:0.99;fill:#95c6ed;fill-opacity:0.50107068;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;paint-order:markers fill stroke"
+         id="path833-1-7"
+         cx="99.380615"
+         cy="29.433678"
+         r="13.317897"
+         inkscape:export-filename="X:\Projekte\_Eigene\Arduino Projects\Stepper Controller\Rev. 0\pictures\state_diagram.png"
+         inkscape:export-xdpi="299"
+         inkscape:export-ydpi="299" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.93889px;line-height:1;font-family:'Futura Lt BT';-inkscape-font-specification:'Futura Lt BT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:0.890196;stroke-width:0.264583"
+         x="99.378891"
+         y="30.691124"
+         id="text837-0-9"
+         inkscape:export-filename="X:\Projekte\_Eigene\Arduino Projects\Stepper Controller\Rev. 0\pictures\state_diagram.png"
+         inkscape:export-xdpi="299"
+         inkscape:export-ydpi="299"><tspan
+           sodipodi:role="line"
+           id="tspan835-8-4"
+           x="99.378891"
+           y="30.691124"
+           style="font-size:4.93889px;fill:#000000;fill-opacity:0.890196;stroke-width:0.264583">RUN</tspan></text>
+      <circle
+         style="opacity:0.99;fill:#93c5ed;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;paint-order:markers fill stroke;fill-opacity:0.49803922"
+         id="path833"
+         cx="99.380615"
+         cy="66.253738"
+         r="13.317897"
+         inkscape:export-filename="X:\Projekte\_Eigene\Arduino Projects\Stepper Controller\Rev. 0\pictures\state_diagram.png"
+         inkscape:export-xdpi="299"
+         inkscape:export-ydpi="299" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.93889px;line-height:1;font-family:'Futura Lt BT';-inkscape-font-specification:'Futura Lt BT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.264583"
+         x="99.378891"
+         y="67.511192"
+         id="text837"
+         inkscape:export-filename="X:\Projekte\_Eigene\Arduino Projects\Stepper Controller\Rev. 0\pictures\state_diagram.png"
+         inkscape:export-xdpi="299"
+         inkscape:export-ydpi="299"><tspan
+           sodipodi:role="line"
+           id="tspan835"
+           x="99.378891"
+           y="67.511192"
+           style="font-size:4.93889px;stroke-width:0.264583">STOP</tspan></text>
+      <circle
+         style="opacity:0.99;fill:#92c4ed;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;paint-order:markers fill stroke;fill-opacity:0.49411765"
+         id="path833-1"
+         cx="99.380615"
+         cy="102.84998"
+         r="13.317897"
+         inkscape:export-filename="X:\Projekte\_Eigene\Arduino Projects\Stepper Controller\Rev. 0\pictures\state_diagram.png"
+         inkscape:export-xdpi="299"
+         inkscape:export-ydpi="299" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.93889px;line-height:1;font-family:'Futura Lt BT';-inkscape-font-specification:'Futura Lt BT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.264583"
+         x="99.378891"
+         y="104.10743"
+         id="text837-0"
+         inkscape:export-filename="X:\Projekte\_Eigene\Arduino Projects\Stepper Controller\Rev. 0\pictures\state_diagram.png"
+         inkscape:export-xdpi="299"
+         inkscape:export-ydpi="299"><tspan
+           sodipodi:role="line"
+           id="tspan835-8"
+           x="99.378891"
+           y="104.10743"
+           style="font-size:4.93889px;stroke-width:0.264583">SET</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+         d="M 99.359617,42.816664 V 52.98562"
+         id="path916"
+         inkscape:export-filename="X:\Projekte\_Eigene\Arduino Projects\Stepper Controller\Rev. 0\pictures\state_diagram.png"
+         inkscape:export-xdpi="299"
+         inkscape:export-ydpi="299" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1198)"
+         d="m 99.359617,79.812708 v 9.733719"
+         id="path1194"
+         inkscape:export-filename="X:\Projekte\_Eigene\Arduino Projects\Stepper Controller\Rev. 0\pictures\state_diagram.png"
+         inkscape:export-xdpi="299"
+         inkscape:export-ydpi="299" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1;font-family:'Futura Lt BT';-inkscape-font-specification:'Futura Lt BT';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;stroke-width:0.264583"
+         x="100.14881"
+         y="48.672722"
+         id="text1220"
+         inkscape:export-filename="X:\Projekte\_Eigene\Arduino Projects\Stepper Controller\Rev. 0\pictures\state_diagram.png"
+         inkscape:export-xdpi="299"
+         inkscape:export-ydpi="299"><tspan
+           sodipodi:role="line"
+           id="tspan1218"
+           x="100.14881"
+           y="48.672722"
+           style="text-align:start;text-anchor:start;stroke-width:0.264583">Button</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1;font-family:'Futura Lt BT';-inkscape-font-specification:'Futura Lt BT';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;stroke-width:0.264583"
+         x="100.2127"
+         y="85.387466"
+         id="text1220-0"
+         inkscape:export-filename="X:\Projekte\_Eigene\Arduino Projects\Stepper Controller\Rev. 0\pictures\state_diagram.png"
+         inkscape:export-xdpi="299"
+         inkscape:export-ydpi="299"><tspan
+           sodipodi:role="line"
+           id="tspan1218-2"
+           x="100.2127"
+           y="85.387466"
+           style="text-align:start;text-anchor:start;stroke-width:0.264583">Button</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1256)"
+         d="m 99.359617,116.27979 c 0,0 -0.76241,8.72937 -11.842007,8.72937 -11.079593,0 -11.079593,-8.72937 -11.079593,-8.72937 V 16.003861 c 0,0 -0.762413,-8.6174711 11.079593,-8.6174711 11.842007,0 11.842007,5.9874621 11.842007,5.9874621 v 2.630009"
+         id="path1252"
+         inkscape:export-filename="X:\Projekte\_Eigene\Arduino Projects\Stepper Controller\Rev. 0\pictures\state_diagram.png"
+         inkscape:export-xdpi="299"
+         inkscape:export-ydpi="299" />
+      <path
+         id="path1427"
+         style="fill:none;stroke:#000000;stroke-width:0.264582px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1438)"
+         d="m 107.47533,19.108595 c -0.60919,-3.180538 3.81029,-8.685817 8.20698,-4.687657 3.7335,4.394559 -1.26758,8.301539 -4.45844,8.1918"
+         sodipodi:nodetypes="ccc"
+         inkscape:export-filename="X:\Projekte\_Eigene\Arduino Projects\Stepper Controller\Rev. 0\pictures\state_diagram.png"
+         inkscape:export-xdpi="299"
+         inkscape:export-ydpi="299" />
+      <path
+         id="path1427-0"
+         style="fill:none;stroke:#000000;stroke-width:0.264582px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1438-5)"
+         d="m 112.09307,33.892686 c 2.90967,-1.421545 9.38086,1.400433 6.6749,6.691368 -3.26232,4.754824 -8.34354,0.952656 -9.074,-2.155416"
+         sodipodi:nodetypes="ccc"
+         inkscape:export-filename="X:\Projekte\_Eigene\Arduino Projects\Stepper Controller\Rev. 0\pictures\state_diagram.png"
+         inkscape:export-xdpi="299"
+         inkscape:export-ydpi="299" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1;font-family:'Futura Lt BT';-inkscape-font-specification:'Futura Lt BT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.264583"
+         x="127.13634"
+         y="13.180261"
+         id="text1724"
+         inkscape:export-filename="X:\Projekte\_Eigene\Arduino Projects\Stepper Controller\Rev. 0\pictures\state_diagram.png"
+         inkscape:export-xdpi="299"
+         inkscape:export-ydpi="299"><tspan
+           sodipodi:role="line"
+           id="tspan1722"
+           x="127.13634"
+           y="13.180261"
+           style="stroke-width:0.264583">num_steps &gt; 0/</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1;font-family:'Futura Lt BT';-inkscape-font-specification:'Futura Lt BT';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+         x="116.29472"
+         y="21.964348"
+         id="text1732"
+         inkscape:export-filename="X:\Projekte\_Eigene\Arduino Projects\Stepper Controller\Rev. 0\pictures\state_diagram.png"
+         inkscape:export-xdpi="299"
+         inkscape:export-ydpi="299"><tspan
+           sodipodi:role="line"
+           id="tspan1730"
+           x="116.29472"
+           y="21.964348"
+           style="stroke-width:0.264583">perform a step</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1;font-family:'Futura Lt BT';-inkscape-font-specification:'Futura Lt BT';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+         x="119.85582"
+         y="38.424614"
+         id="text1736"
+         inkscape:export-filename="X:\Projekte\_Eigene\Arduino Projects\Stepper Controller\Rev. 0\pictures\state_diagram.png"
+         inkscape:export-xdpi="299"
+         inkscape:export-ydpi="299"><tspan
+           sodipodi:role="line"
+           id="tspan1734"
+           x="119.85582"
+           y="38.424614"
+           style="stroke-width:0.264583">recComplete == true/</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1;font-family:'Futura Lt BT';-inkscape-font-specification:'Futura Lt BT';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+         x="119.6217"
+         y="42.964851"
+         id="text1740"
+         inkscape:export-filename="X:\Projekte\_Eigene\Arduino Projects\Stepper Controller\Rev. 0\pictures\state_diagram.png"
+         inkscape:export-xdpi="299"
+         inkscape:export-ydpi="299"><tspan
+           sodipodi:role="line"
+           id="tspan1738"
+           x="119.6217"
+           y="42.964851"
+           style="stroke-width:0.264583">parse command line</tspan><tspan
+           sodipodi:role="line"
+           x="119.6217"
+           y="46.492622"
+           style="stroke-width:0.264583"
+           id="tspan990">and execute</tspan></text>
+      <path
+         id="path1427-5"
+         style="fill:none;stroke:#000000;stroke-width:0.264582px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1438-2)"
+         d="m 107.50495,55.960855 c -0.60919,-3.180538 3.81029,-8.685817 8.20698,-4.687657 3.7335,4.394559 -1.26758,8.301539 -4.45844,8.1918"
+         sodipodi:nodetypes="ccc"
+         inkscape:export-filename="X:\Projekte\_Eigene\Arduino Projects\Stepper Controller\Rev. 0\pictures\state_diagram.png"
+         inkscape:export-xdpi="299"
+         inkscape:export-ydpi="299" />
+      <path
+         id="path1427-0-8"
+         style="fill:none;stroke:#000000;stroke-width:0.264582px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1438-5-3)"
+         d="m 112.12269,70.744946 c 2.90967,-1.421545 9.38086,1.400433 6.6749,6.691369 -3.26232,4.754822 -8.34354,0.952657 -9.074,-2.155417"
+         sodipodi:nodetypes="ccc"
+         inkscape:export-filename="X:\Projekte\_Eigene\Arduino Projects\Stepper Controller\Rev. 0\pictures\state_diagram.png"
+         inkscape:export-xdpi="299"
+         inkscape:export-ydpi="299" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1;font-family:'Futura Lt BT';-inkscape-font-specification:'Futura Lt BT';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+         x="116.9278"
+         y="52.273403"
+         id="text1908"
+         inkscape:export-filename="X:\Projekte\_Eigene\Arduino Projects\Stepper Controller\Rev. 0\pictures\state_diagram.png"
+         inkscape:export-xdpi="299"
+         inkscape:export-ydpi="299"><tspan
+           sodipodi:role="line"
+           id="tspan1906"
+           x="116.9278"
+           y="52.273403"
+           style="stroke-width:0.264583">rot_value &lt; 0 (CCW)/</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1;font-family:'Futura Lt BT';-inkscape-font-specification:'Futura Lt BT';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+         x="116.69038"
+         y="58.920826"
+         id="text1912"
+         inkscape:export-filename="X:\Projekte\_Eigene\Arduino Projects\Stepper Controller\Rev. 0\pictures\state_diagram.png"
+         inkscape:export-xdpi="299"
+         inkscape:export-ydpi="299"><tspan
+           sodipodi:role="line"
+           id="tspan1910"
+           x="116.69038"
+           y="58.920826"
+           style="stroke-width:0.264583">select Channel A</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1;font-family:'Futura Lt BT';-inkscape-font-specification:'Futura Lt BT';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+         x="119.21027"
+         y="71.947601"
+         id="text1908-2"
+         inkscape:export-filename="X:\Projekte\_Eigene\Arduino Projects\Stepper Controller\Rev. 0\pictures\state_diagram.png"
+         inkscape:export-xdpi="299"
+         inkscape:export-ydpi="299"><tspan
+           sodipodi:role="line"
+           id="tspan1906-2"
+           x="119.21027"
+           y="71.947601"
+           style="stroke-width:0.264583">rot_value &gt; 0 (CW)/</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1;font-family:'Futura Lt BT';-inkscape-font-specification:'Futura Lt BT';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+         x="118.8619"
+         y="80.24015"
+         id="text1912-2"
+         inkscape:export-filename="X:\Projekte\_Eigene\Arduino Projects\Stepper Controller\Rev. 0\pictures\state_diagram.png"
+         inkscape:export-xdpi="299"
+         inkscape:export-ydpi="299"><tspan
+           sodipodi:role="line"
+           id="tspan1910-0"
+           x="118.8619"
+           y="80.24015"
+           style="stroke-width:0.264583">select Channel B</tspan></text>
+      <path
+         id="path1427-5-6"
+         style="fill:none;stroke:#000000;stroke-width:0.264582px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1438-2-7)"
+         d="m 107.58409,92.442516 c -0.60919,-3.18054 3.81029,-8.68582 8.20698,-4.68766 3.7335,4.39456 -1.26758,8.30154 -4.45844,8.1918"
+         sodipodi:nodetypes="ccc"
+         inkscape:export-filename="X:\Projekte\_Eigene\Arduino Projects\Stepper Controller\Rev. 0\pictures\state_diagram.png"
+         inkscape:export-xdpi="299"
+         inkscape:export-ydpi="299" />
+      <path
+         id="path1427-0-8-2"
+         style="fill:none;stroke:#000000;stroke-width:0.264582px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1438-5-3-2)"
+         d="m 112.20183,107.22661 c 2.90967,-1.42154 9.38086,1.40044 6.6749,6.69137 -3.26232,4.75482 -8.34354,0.95266 -9.074,-2.15542"
+         sodipodi:nodetypes="ccc"
+         inkscape:export-filename="X:\Projekte\_Eigene\Arduino Projects\Stepper Controller\Rev. 0\pictures\state_diagram.png"
+         inkscape:export-xdpi="299"
+         inkscape:export-ydpi="299" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1;font-family:'Futura Lt BT';-inkscape-font-specification:'Futura Lt BT';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+         x="117.51671"
+         y="88.707695"
+         id="text1908-9"
+         inkscape:export-filename="X:\Projekte\_Eigene\Arduino Projects\Stepper Controller\Rev. 0\pictures\state_diagram.png"
+         inkscape:export-xdpi="299"
+         inkscape:export-ydpi="299"><tspan
+           sodipodi:role="line"
+           id="tspan1906-4"
+           x="117.51671"
+           y="88.707695"
+           style="stroke-width:0.264583">rot_value &lt; 0 (CCW)/</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1;font-family:'Futura Lt BT';-inkscape-font-specification:'Futura Lt BT';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+         x="117.27929"
+         y="95.355118"
+         id="text1912-0"
+         inkscape:export-filename="X:\Projekte\_Eigene\Arduino Projects\Stepper Controller\Rev. 0\pictures\state_diagram.png"
+         inkscape:export-xdpi="299"
+         inkscape:export-ydpi="299"><tspan
+           sodipodi:role="line"
+           id="tspan1910-1"
+           x="117.27929"
+           y="95.355118"
+           style="stroke-width:0.264583">decrease num_steps</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1;font-family:'Futura Lt BT';-inkscape-font-specification:'Futura Lt BT';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+         x="119.86926"
+         y="109.77457"
+         id="text1908-9-6"
+         inkscape:export-filename="X:\Projekte\_Eigene\Arduino Projects\Stepper Controller\Rev. 0\pictures\state_diagram.png"
+         inkscape:export-xdpi="299"
+         inkscape:export-ydpi="299"><tspan
+           sodipodi:role="line"
+           id="tspan1906-4-2"
+           x="119.86926"
+           y="109.77457"
+           style="stroke-width:0.264583">rot_value &gt; 0 (CW)/</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1;font-family:'Futura Lt BT';-inkscape-font-specification:'Futura Lt BT';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+         x="119.63184"
+         y="116.42199"
+         id="text1912-0-0"
+         inkscape:export-filename="X:\Projekte\_Eigene\Arduino Projects\Stepper Controller\Rev. 0\pictures\state_diagram.png"
+         inkscape:export-xdpi="299"
+         inkscape:export-ydpi="299"><tspan
+           sodipodi:role="line"
+           id="tspan1910-1-5"
+           x="119.63184"
+           y="116.42199"
+           style="stroke-width:0.264583">increase num_steps</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1;font-family:'Futura Lt BT';-inkscape-font-specification:'Futura Lt BT';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;stroke-width:0.264583"
+         x="97.342529"
+         y="123.93169"
+         id="text1220-0-2"
+         inkscape:export-filename="X:\Projekte\_Eigene\Arduino Projects\Stepper Controller\Rev. 0\pictures\state_diagram.png"
+         inkscape:export-xdpi="299"
+         inkscape:export-ydpi="299"><tspan
+           sodipodi:role="line"
+           id="tspan1218-2-1"
+           x="97.342529"
+           y="123.93169"
+           style="text-align:start;text-anchor:start;stroke-width:0.264583">Button</tspan></text>
+    </g>
+  </g>
+</svg>
