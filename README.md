@@ -8,3 +8,5 @@ The purpose of this project is top provide an Arduino (Pro Micro) based stepper 
 <img src="https://github.com/svenpetersen1965/Stepper_Motor_Controller/blob/main/Rev.%200/pictures/8497_-_case_right.JPG" width="300" alt="Power and RS-232">
 
 The 3D printed case provides different versions of the top and bottom shells. 
+
+In case you are not experienced with cable making, you might want to read the <a href="http://tech.guitarsite.de/cable_making.html">essay about this topic on my website</a>.
